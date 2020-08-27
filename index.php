@@ -12,7 +12,7 @@
 	<!--Helvetica Neue-->
 <body>
 <div class="front-img">
-	<img src="assets/images/background.jpg"></img>
+	<img src="assets/images/background/background.jpg"></img>
 </div>	
 
 <div class="wrapper">
@@ -48,7 +48,7 @@
 	<div class="main-container">
 		<!-- content left-->
 		<div class="content-left">
-			<h1>Welcome to KJconnec!</h1>
+			<h1>Welcome to KJconnect!</h1>
 			<br/>
 			<p>An uncensored place to connect with the KJ Scariest movie ever made community — and Get updates from the people you love, from the world and from things that interest you.</p>
 		</div><!-- content left ends -->	
