@@ -1,7 +1,8 @@
 <?php 
   require 'core/init.php';
   $user_id = $_SESSION['user_id'];
-  $user = $getFromU->userData($user_id);
+	$user = $getFromU->userData($user_id);
+	
 ?>
 
 <!DOCTYPE HTML> 
