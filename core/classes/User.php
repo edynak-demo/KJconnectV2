@@ -86,6 +86,18 @@ class User {
     }
   }
   
+  public function checkUsername($username){
+    $stmt = $this->pdo->prepare("SELECT `username` FROM `users` WHERE `username` = :username");
+    $stmt->bindParam(":username", $username, PDO::PARAM_STR);
+    $stmt->execute();
+
+    $count = $stmt->rowCount();
+    if($count > 0){
+      return true;
+    }else{
+      return false;
+    }
+  }
 
   public function checkEmail($email){
     $stmt = $this->pdo->prepare("SELECT `email` FROM `users` WHERE `email` = :email");
